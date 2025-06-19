@@ -10,6 +10,7 @@ const DisasterCard = ({ disaster, onViewDetails }) => {
       minute: '2-digit'
     });
   };
+  //gh
 
   const truncateDescription = (text, maxLength = 100) => {
     if (!text) return '';
